@@ -18,6 +18,19 @@ public class Product {
 
 	}
 	
+	public void showPrice() {
+		System.out.println(productPrice + "€");
+	}
+	
+	public void vatPrice() {
+		int vatPrice=productPrice + ((productPrice*vat)/100);
+		System.out.println(vatPrice + "€");
+	}
+	
+	public void fullName() {
+		System.out.println(productCode+productName);
+	}
+	
 
 }
 
