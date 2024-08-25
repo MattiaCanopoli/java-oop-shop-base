@@ -6,9 +6,9 @@ public class Prodotto {
 
 //	Random randomCode = new Random();
 //	int productCode = randomCode.nextInt(99999);;
-	int productCode;
 	String productName;
 	String productDescription;
+	int productCode;
 	int productPrice;
 	int vat;
 
